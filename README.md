@@ -113,8 +113,8 @@ A journey across the full applied-ML lifecycle: first applying supervised and un
 - Clear **weekday peaks** (7–10 AM, 4–8 PM); fares rise slightly at peak while tips stay flat → flat pricing leaves revenue on the table.
 
 ### 4. Output
-- [Solution-Design Slide Deck (PPTX)](./Assessment-2-Solution-Design/NYC-Taxi-Solution-Design-Proposal.pdf) — 10 pages.
-- Screenshot EDA in Tableau and Funtional Data Flow in Tableau Prep
+- Solution-Design Slide Deck — 10 pages: Here are [pdf](./Assessment-2-Solution-Design/NYC-Taxi-Solution-Design-Proposal.pdf) and [pptx](./Assessment-2-Solution-Design/NYC-Taxi-Solution-Design-Proposal.pptx) files.
+- Screenshot EDA in Tableau and Funtional Data Flow (Pre-processing) in Tableau Prep, in repo [./Assessment-2-Solution-Design](./Assessment-2-Solution-Design)
 
 ---
 
