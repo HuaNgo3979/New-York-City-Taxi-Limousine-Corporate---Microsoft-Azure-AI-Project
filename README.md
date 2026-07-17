@@ -196,7 +196,7 @@ The model brings pricing/dispatch **parity** with Uber & Lyft, while **zero comm
 - UI mockups ([Fleet Command Center](./Assessment-3-Project-Implementation/NYCTLC-Fleet-Command-Center.png) dashboard + [Driver App](./Assessment-3-Project-Implementation/NYCTLC-Driver-App.png))
 - Tableau Prep flow, in repo: [./Assessment-3/Tableau_Prep](./Assessment-3-Project-Implementation/Tableau-Prep's-Functional-Data-Workflow.png)
 - Python sampling notebook, in repo: [./Assessment-3/nyctlc_stratified_sampling.ipynb](Assessment-3-Project-Implementation/nyctlc_stratified_sampling.ipynb)
-- [Azure pipeline](./Assessment-3-Project-Implementation/NYCTLC-Azure-Pipeline.png)
+- [Azure pipeline](./Assessment-3-Project-Implementation/NYCTLC_Azure_Pipeline.png)
 
 ---
 
