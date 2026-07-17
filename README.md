@@ -12,7 +12,7 @@ A journey across the full applied-ML lifecycle: first applying supervised and un
 
 🏆 **[Top Course Grade](Asset/top-course-grade.png)** The team's NYC TLC solution was selected and pitched to **[Microsoft Team](Asset/top-6-selected-team.png)**.
 
-**[Certification](Asset/CoA.png)**: Certification of Archievement - Exceptional efforts and insightful presentation showcasing your expertise in designing and implementing effective data science solutions for business scenarios
+**Certification (from [Microsoft](Asset/ISYS3466-Microsoft-certificate-s2-g4.pdf) and [RMIT](Asset/ISYS3466-RMIT-certificate-s2-g4.pdf))**: Certification of Archievement - Exceptional efforts and insightful presentation showcasing your expertise in designing and implementing effective data science solutions for business scenarios
 
 **Team:** Gradient Minds / Team 4 - Section 2
 
