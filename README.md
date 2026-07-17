@@ -191,7 +191,7 @@ The model brings pricing/dispatch **parity** with Uber & Lyft, while **zero comm
 - **Year 3+** — EV route & charging optimisation and multi-modal (subway/bus) integration — positioning NYCTLC as a data-driven mobility platform.
 
 ### 7. Output
-- 📄 Implementation Report — 2,750 words, RMIT Harvard (Click [pptx](./Assessment-3-Project-Implementation/NYCTLC_Microsoft_Pitch.pptx) for presentation slide deck or [pdf](./Assessment-3-Project-Implementation/GradientMind(S3G4)_NYCTLC_Implementation_Report.pdf) and [docx](./Assessment-3-Project-Implementation/GradientMind(S2G4)_NYCTLC_Implementation_Report.docx) to download full report).
+- 📄 Implementation Report — 2,750 words, RMIT Harvard (Click [pptx](./Assessment-3-Project-Implementation/NYCTLC_Microsoft_Pitch.pptx) for presentation slide deck or [pdf](./Assessment-3-Project-Implementation/GradientMind(S2G4)_NYCTLC_Implementation_Report.pdf) and [docx](./Assessment-3-Project-Implementation/GradientMind(S3G4)_NYCTLC_Implementation_Report.docx) to download full report).
 - Photos of executive pitch deck in front of Microsoft Team, in repo: [./Assessment-3/Presentation](./Assessment-3-Project-Implementation)
 - UI mockups (Fleet Command Center dashboard + Driver App), in repo:
 - Tableau Prep flow, in repo: [./Assessment-3/Tableau_Prep](./Assessment-3-Project-Implementation/Tableau-Prep's-Functional-Data-Workflow.png)
