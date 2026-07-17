@@ -193,10 +193,10 @@ The model brings pricing/dispatch **parity** with Uber & Lyft, while **zero comm
 ### 7. Output
 - 📄 Implementation Report — 2,750 words, RMIT Harvard (Click [pptx](./Assessment-3-Project-Implementation/NYCTLC_Microsoft_Pitch.pptx) for presentation slide deck or [pdf](./Assessment-3-Project-Implementation/GradientMind(S2G4)_NYCTLC_Implementation_Report.pdf) and [docx](./Assessment-3-Project-Implementation/GradientMind(S3G4)_NYCTLC_Implementation_Report.docx) to download full report).
 - Photos of executive pitch deck in front of Microsoft Team, in repo: [./Assessment-3/Presentation](./Assessment-3-Project-Implementation)
-- UI mockups (Fleet Command Center dashboard + Driver App), in repo:
+- UI mockups ([Fleet Command Center](./Assessment-3-Project-Implementation/NYCTLC-Fleet-Command-Center.png) dashboard + [Driver App](./Assessment-3-Project-Implementation/NYCTLC-Driver-App.png))
 - Tableau Prep flow, in repo: [./Assessment-3/Tableau_Prep](./Assessment-3-Project-Implementation/Tableau-Prep's-Functional-Data-Workflow.png)
-- Python sampling notebook: [./Assessment-3/nyctlc_stratified_sampling.ipynb](Assessment-3-Project-Implementation/nyctlc_stratified_sampling.ipynb)
-- Azure pipeline + evaluation screenshots, in repo: 
+- Python sampling notebook, in repo: [./Assessment-3/nyctlc_stratified_sampling.ipynb](Assessment-3-Project-Implementation/nyctlc_stratified_sampling.ipynb)
+- [Azure pipeline](./Assessment-3-Project-Implementation/NYCTLC-Azure-Pipeline)
 
 ---
 
