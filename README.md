@@ -138,11 +138,65 @@ Seven-stage Azure ML pipeline: **Tableau Prep** cleaning with Tukey IQR capping 
 - **Business value:** enables controlled dynamic pricing (~1.2× peak), proactive fleet pre-positioning toward high-value zones (est. 15–20% idle-time reduction), and a 2–3 min target wait time.
 - **Ethics:** flags an algorithmic feedback-loop risk (≈95% Manhattan concentration); GBDT chosen partly for auditable feature importance; uses anonymised trip records only.
 
-### 4. Output
-- 📄 [Implementation Report (PDF)](./Assessment-3-Implementation/report/ASM3_NYCTLC_Fare_Prediction_Implementation.pdf) — 2,750 words, RMIT Harvard.
-- 🎤 Executive pitch deck → ‹TODO: `./Assessment-3-Implementation/deck/`›
-- 🖥️ UI mockups (Fleet Command Center dashboard + Driver App) → ‹TODO: `…/dashboards/`›
-- 🔧 Tableau Prep flow → ‹TODO: `…/tableau-prep/`› · Python sampling notebook → ‹TODO: `…/python/`› · Azure pipeline + evaluation screenshots → ‹TODO: `…/azure-pipeline/`›
+### 4. Business Impact & ROI
+
+Turning the GBDT fare model into measurable business value for NYC Yellow Taxi.
+
+|  |  |  |  |
+|:---:|:---:|:---:|:---:|
+| **3–4×** | **15–20%** | **2–3 min** | **$55.93** |
+| Airport revenue premium | Idle-time reduction | Target wait time | Avg. airport trip |
+
+**Direct impact** — revenue maximisation via airport-route dispatch + peak-hour surge (7–10 AM, 4–8 PM); operational cost reduction via hotspot forecasting in Midtown/UES.
+**Indirect impact** — faster, more reliable service to compete with ride-hailing, plus a data-driven competitive moat on Azure ML.
+
+**Cost–Benefit (Year 1)**
+
+| Costs | | Benefits | |
+|:---|---:|:---|---:|
+| Azure cloud infrastructure | $0.15M | Airport revenue (+10% JFK/LGA) | $1.2M |
+| Data science team | $0.25M | Operational savings (−15% idle) | $0.4M |
+| Training & deployment | $0.05M | Surge pricing (peak uplift) | $0.5M |
+| **Total** | **$0.45M** | **Total** | **$2.1M** |
+
+> **~366% first-year ROI · Net profit ≈ $1.65M**
+
+### 5. Integrated Azure Model into NYCTLC Systems
+
+The trained GBDT model is deployed through **two connected interfaces** that turn predictions into front-line decisions — one model, one source of truth.
+
+- **Fleet Command Center (dispatchers, top-down):** real-time demand heatmap by zone, KPI cards (active trips, fleet utilisation, avg. wait, next peak), and a Smart Dispatch panel that outputs concrete calls like *“Dispatch 47 drivers to Midtown · 94.7% confidence · +$3,400 expected ROI.”*
+- **Driver App (drivers, bottom-up):** Smart Zone Suggestion with expected hourly earnings, per-trip revenue prediction, and a Trip Score blending fare, net profit, return-trip odds, traffic and safety — plus best-earning-hours planning.
+
+Together they form a closed loop: macro-level fleet allocation and micro-level driver choices come from the same model.
+
+### 6. Competitive Advantage & Future Opportunities
+
+**How NYCTLC stacks up against ride-hailing**
+
+| Capability | Uber / Lyft | NYCTLC (Azure) |
+|:---|:---:|:---:|
+| Fleet size in NYC | 18,000+ | 13,000 medallions |
+| Dynamic pricing | **X** | **X** |
+| Data-driven dispatch | **X** | **X** |
+| Regulated brand trust | Mixed | **High** |
+| Commission to driver | 25–30% | **0%** |
+
+The model brings pricing/dispatch **parity** with Uber & Lyft, while **zero commission** and **regulated trust** stay as structural advantages competitors can’t copy — turning a regulatory constraint into a differentiator.
+
+**Roadmap — three horizons**
+
+- **Months 6–12** — Real-time streaming (Azure Stream Analytics): live driver heatmaps + sub-minute forecasting.
+- **Year 2** — Integrate weather, events & traffic feeds to capture the ±30% external demand swing; tune surge pricing per zone/hour.
+- **Year 3+** — EV route & charging optimisation and multi-modal (subway/bus) integration — positioning NYCTLC as a data-driven mobility platform.
+
+### 7. Output
+- 📄 Implementation Report — 2,750 words, RMIT Harvard (Click [pptx](./Assessment-3-Project-Implementation/NYCTLC_Microsoft_Pitch.pptx) for presentation slide deck or [pdf](./Assessment-3-Project-Implementation/GradientMind(S2G4)_NYCTLC_Implementation_Report.pdf) and [docx](./Assessment-3-Project-Implementation/GradientMind(S2G4)_NYCTLC_Implementation_Report.docx) to download full report).
+- Photos of executive pitch deck in front of Microsoft Team, in repo: [./Assessment-3/Presentation](./Assessment-3-Project-Implementation)
+- UI mockups (Fleet Command Center dashboard + Driver App), in repo:
+- Tableau Prep flow, in repo: [./Assessment-3/Tableau_Prep](./Assessment-3-Project-Implementation/Tableau-Prep's-Functional-Data-Workflow.png)
+- Python sampling notebook: [./Assessment-3/nyctlc_stratified_sampling.ipynb](Assessment-3-Project-Implementation/nyctlc_stratified_sampling.ipynb)
+- Azure pipeline + evaluation screenshots, in repo: 
 
 ---
 
