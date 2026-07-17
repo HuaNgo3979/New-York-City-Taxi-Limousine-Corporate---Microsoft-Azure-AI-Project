@@ -114,6 +114,7 @@ A journey across the full applied-ML lifecycle: first applying supervised and un
 
 ### 4. Output
 - [Solution-Design Slide Deck (PPTX)](./Assessment-2-Solution-Design/NYC-Taxi-Solution-Design-Proposal.pdf) — 10 pages.
+- Screenshot EDA in Tableau and Funtional Data Flow in Tableau Prep
 
 ---
 
