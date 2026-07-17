@@ -4,7 +4,7 @@ Privacy: this is a PUBLIC repo. Teammates' names and student IDs are intentional
 All figures/metrics below come from the author's own submitted RMIT coursework.
 -->
 
-# NYC Taxi & Limousine Commission (TLC) Project - `ISYS3466` Data-Driven Decision Making: Machine Learning for Business Professionals
+# NYC Taxi & Limousine Commission (TLC) Project - Data-Driven Decision Making: Applied Machine Learning In Microsoft Azure AI.
 
 <div align="justify">
 
