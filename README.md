@@ -70,7 +70,7 @@ A journey across the full applied-ML lifecycle: first applying supervised and un
 - **Wine:** **K=3 is optimal** — strongest cluster separation with comparable cohesion, aligning with the dataset's three natural classes; K=4 over-segments and reduces stability.
 
 ### 4. Output
-- Azure AI Exercise Report — 2,200 words, RMIT Harvard ((Click [docx](./Assessment-1-Azure-AI-Report/Microsoft-Azure-AI-Excercise.docx) and [pdf](./Assessment-1-Azure-AI-Report/Microsoft-Azure-AI-Excercise.docx) to download).
+- Azure AI Exercise Report — 2,200 words, RMIT Harvard ((Click [docx](./Assessment-1-Azure-AI-Exercise-Report/Microsoft-Azure-AI-Excercise.docx) and [pdf](./Assessment-1-Azure-AI-Exercise-Report/Microsoft-Azure-AI-Excercise.pdf) to download).
 - Azure ML pipeline screenshots, located in repo [./Assessment-1-Azure-AI-Exercise-Report](./Assessment-1-Azure-AI-Exercise-Report)
 
 ---
